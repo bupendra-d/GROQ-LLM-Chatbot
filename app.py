@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="Groq LLM Chatbot",
 )
 
-# Retrieve API key from environment or Streamlit secrets
+# Retrieve API key 
 def get_api_key():
     api_key = os.getenv("GROQ_API_KEY")
 
